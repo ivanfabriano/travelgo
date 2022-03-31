@@ -9,6 +9,8 @@ import Home from "./pages/home/Home";
 import Help from "./pages/help/Help";
 import LiveChat from "./pages/livechat/LiveChat";
 import ShowSchedule from "./pages/reservation/ShowSchedule";
+import PersonalForm from "./pages/reservation/PersonalForm";
+import ChooseSeat from "./pages/reservation/ChooseSeat";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
         <Route path="help" element={<Help />} />
         <Route path="live-chat" element={<LiveChat />} />
         <Route path="show-schedule" element={<ShowSchedule />} />
+        <Route path="personal-information" element={<PersonalForm />} />
+        <Route path="choose-seat" element={<ChooseSeat />} />
       </Routes>
       <BottomMenu />
     </div>

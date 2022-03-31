@@ -1,3 +1,6 @@
+// IMPORT LIBRARY
+import { Link } from "react-router-dom";
+
 // IMPORT COMPONENTS
 import MiniButton from "../buttons/MiniButton";
 
@@ -28,7 +31,9 @@ const CardWButtons = () => {
       </div>
       <div className="flex px-12px items-center w-full">
         <div className="w-1/2">
-          <MiniButton label="Pilih Jadwal" />
+          <Link to="/personal-information">
+            <MiniButton label="Pilih Jadwal" />
+          </Link>
         </div>
         <div className="flex font-semibold w-1/2 text-right justify-end">
           <PersonOutlined />

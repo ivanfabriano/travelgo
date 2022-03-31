@@ -1,5 +1,6 @@
 // IMPORT LIBRARY
 import TextFields from '@mui/material/TextField';
+import InputAdornment from '@mui/material/InputAdornment';
 
 const TextField = ({label, name, value, required, children}) => {
   return (

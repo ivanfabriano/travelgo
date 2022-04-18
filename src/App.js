@@ -11,6 +11,7 @@ import LiveChat from "./pages/livechat/LiveChat";
 import ShowSchedule from "./pages/reservation/ShowSchedule";
 import PersonalForm from "./pages/reservation/PersonalForm";
 import ChooseSeat from "./pages/reservation/ChooseSeat";
+import Checkout from "./pages/reservation/Checkout";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="show-schedule" element={<ShowSchedule />} />
         <Route path="personal-information" element={<PersonalForm />} />
         <Route path="choose-seat" element={<ChooseSeat />} />
+        <Route path="checkout" element={<Checkout />} />
       </Routes>
       <BottomMenu />
     </div>

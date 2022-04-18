@@ -8,6 +8,7 @@ module.exports = {
         'primmary-blue':'#1C86D6'
       },
       margin:{
+        '2px':'2px',
         '4px':'4px',
         '8px':'8px',
         '12px':'12px',
